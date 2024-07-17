@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="crowbar">
+		<CBX_INST_ENTRY INSTANCE_NAME="|MainScheme|CPU:inst|shift:inst28|lpm_clshift:LPM_CLSHIFT_component" CBX_FILE_NAME="lpm_clshift_ukb.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MainScheme|CPU:inst|add:inst15|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_2ph.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MainScheme|CPU:inst|add:inst77|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_2ph.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MainScheme|CPU:inst|comparator_signed:inst39|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_ici.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MainScheme|CPU:inst|shift_right:inst24|lpm_clshift:LPM_CLSHIFT_component" CBX_FILE_NAME="lpm_clshift_vjc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MainScheme|CPU:inst|shift_right:inst33|lpm_clshift:LPM_CLSHIFT_component" CBX_FILE_NAME="lpm_clshift_vjc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MainScheme|Memory:inst1|RAM:inst5|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_7ho3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MainScheme|CPU:inst|RegFile:inst16|DC32:inst34|lpm_decode:LPM_DECODE_component" CBX_FILE_NAME="decode_rvf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MainScheme|CPU:inst|RegFile:inst16|Multiplexer32x1:inst33|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_k9e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MainScheme|CPU:inst|add_pc:inst14|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_msh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MainScheme|CPU:inst|add:inst26|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_2ph.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MainScheme|CPU:inst|add:inst40|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_2ph.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MainScheme|CPU:inst|add:inst84|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_2ph.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MainScheme|CPU:inst|add:inst8|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_2ph.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MainScheme|CPU:inst|cmpux:inst19|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_amg.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MainScheme|CPU:inst|cmpx:inst30|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_7fg.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MainScheme|CPU:inst|shift:inst23|lpm_clshift:LPM_CLSHIFT_component" CBX_FILE_NAME="lpm_clshift_ukb.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MainScheme|CPU:inst|RegFile:inst16|Multiplexer32x1:inst35|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_k9e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MainScheme|CPU:inst|comparator:inst35|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_lji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MainScheme|CPU:inst|cmpux:inst31|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_amg.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MainScheme|CPU:inst|cmpx:inst18|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_7fg.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MainScheme|CPU:inst|sub:inst27|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_0jh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MainScheme|CPU:inst|RegFile:inst16|MUX_32_5:inst36|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_k9e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MainScheme|CPU:inst|add:inst12|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_2ph.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MainScheme|CPU:inst|add:inst29|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_2ph.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MainScheme|CPU:inst|shiftA:inst25|lpm_clshift:LPM_CLSHIFT_component" CBX_FILE_NAME="lpm_clshift_euc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MainScheme|CPU:inst|shiftA:inst34|lpm_clshift:LPM_CLSHIFT_component" CBX_FILE_NAME="lpm_clshift_euc.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
