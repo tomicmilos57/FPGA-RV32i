@@ -1,5 +1,5 @@
 Flow report for crowbar
-Wed Jul 17 18:03:37 2024
+Wed Jul 17 18:18:57 2024
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Flow Summary                                                                    ;
 +------------------------------------+--------------------------------------------+
-; Flow Status                        ; Successful - Wed Jul 17 18:03:37 2024      ;
+; Flow Status                        ; Successful - Wed Jul 17 18:18:57 2024      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; crowbar                                    ;
 ; Top-level Entity Name              ; MainScheme                                 ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 07/17/2024 18:03:26 ;
+; Start date & time ; 07/17/2024 18:18:47 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; crowbar             ;
 +-------------------+---------------------+
@@ -75,23 +75,23 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                 ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+---------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 127913722665915.172123220613144       ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 127913722665915.172123312716492       ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                  ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                ; <None>        ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_ADD_SUB                           ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_CLSHIFT                           ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_CLSHIFT                           ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_CLSHIFT                           ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; RAM: 1-PORT                           ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_MUX                               ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                        ; LPM_MUX                               ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                        ; LPM_DECODE                            ; --            ; --          ; --             ;
-; IP_TOOL_NAME                        ; LPM_MUX                               ; --            ; --          ; --             ;
-; IP_TOOL_NAME                        ; LPM_ADD_SUB                           ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                        ; LPM_COMPARE                           ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                        ; LPM_COMPARE                           ; --            ; --          ; --             ;
-; IP_TOOL_NAME                        ; LPM_CLSHIFT                           ; --            ; --          ; --             ;
-; IP_TOOL_NAME                        ; LPM_CLSHIFT                           ; --            ; --          ; --             ;
-; IP_TOOL_NAME                        ; LPM_CLSHIFT                           ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_COMPARE                           ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_COMPARE                           ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                        ; LPM_ADD_SUB                           ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                        ; LPM_ADD_SUB                           ; --            ; --          ; --             ;
-; IP_TOOL_NAME                        ; LPM_COMPARE                           ; --            ; --          ; --             ;
-; IP_TOOL_NAME                        ; LPM_COMPARE                           ; --            ; --          ; --             ;
-; IP_TOOL_NAME                        ; RAM: 1-PORT                           ; --            ; --          ; --             ;
 ; IP_TOOL_VERSION                     ; 13.1                                  ; --            ; --          ; --             ;
 ; IP_TOOL_VERSION                     ; 13.1                                  ; --            ; --          ; --             ;
 ; IP_TOOL_VERSION                     ; 13.1                                  ; --            ; --          ; --             ;
@@ -108,33 +108,33 @@ applicable agreement for further details.
 ; IP_TOOL_VERSION                     ; 13.1                                  ; --            ; --          ; --             ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                    ; --            ; --          ; --             ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                     ; --            ; --          ; --             ;
-; MISC_FILE                           ; MUX_32_5.cmp                          ; --            ; --          ; --             ;
-; MISC_FILE                           ; DC32.bsf                              ; --            ; --          ; --             ;
-; MISC_FILE                           ; DC32.cmp                              ; --            ; --          ; --             ;
-; MISC_FILE                           ; Multiplexer32x1.bsf                   ; --            ; --          ; --             ;
-; MISC_FILE                           ; Multiplexer32x1.cmp                   ; --            ; --          ; --             ;
-; MISC_FILE                           ; add.bsf                               ; --            ; --          ; --             ;
-; MISC_FILE                           ; add.cmp                               ; --            ; --          ; --             ;
-; MISC_FILE                           ; cmpx.bsf                              ; --            ; --          ; --             ;
-; MISC_FILE                           ; cmpx.cmp                              ; --            ; --          ; --             ;
-; MISC_FILE                           ; cmpux.bsf                             ; --            ; --          ; --             ;
-; MISC_FILE                           ; cmpux.cmp                             ; --            ; --          ; --             ;
-; MISC_FILE                           ; shift.bsf                             ; --            ; --          ; --             ;
-; MISC_FILE                           ; shift.cmp                             ; --            ; --          ; --             ;
-; MISC_FILE                           ; shift_right.bsf                       ; --            ; --          ; --             ;
-; MISC_FILE                           ; shift_right.cmp                       ; --            ; --          ; --             ;
-; MISC_FILE                           ; shiftA.bsf                            ; --            ; --          ; --             ;
-; MISC_FILE                           ; shiftA.cmp                            ; --            ; --          ; --             ;
-; MISC_FILE                           ; sub.bsf                               ; --            ; --          ; --             ;
-; MISC_FILE                           ; sub.cmp                               ; --            ; --          ; --             ;
-; MISC_FILE                           ; add_pc.bsf                            ; --            ; --          ; --             ;
-; MISC_FILE                           ; add_pc.cmp                            ; --            ; --          ; --             ;
-; MISC_FILE                           ; comparator.bsf                        ; --            ; --          ; --             ;
-; MISC_FILE                           ; comparator.cmp                        ; --            ; --          ; --             ;
-; MISC_FILE                           ; comparator_signed.bsf                 ; --            ; --          ; --             ;
-; MISC_FILE                           ; comparator_signed.cmp                 ; --            ; --          ; --             ;
-; MISC_FILE                           ; RAM.bsf                               ; --            ; --          ; --             ;
-; MISC_FILE                           ; RAM.cmp                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; components/sub.bsf                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; components/sub.cmp                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; components/shiftA.bsf                 ; --            ; --          ; --             ;
+; MISC_FILE                           ; components/shiftA.cmp                 ; --            ; --          ; --             ;
+; MISC_FILE                           ; components/shift_right.bsf            ; --            ; --          ; --             ;
+; MISC_FILE                           ; components/shift_right.cmp            ; --            ; --          ; --             ;
+; MISC_FILE                           ; components/shift.bsf                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; components/shift.cmp                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; components/RAM.bsf                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; components/RAM.cmp                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; components/MUX_32_5.cmp               ; --            ; --          ; --             ;
+; MISC_FILE                           ; components/Multiplexer32x1.bsf        ; --            ; --          ; --             ;
+; MISC_FILE                           ; components/Multiplexer32x1.cmp        ; --            ; --          ; --             ;
+; MISC_FILE                           ; components/DC32.bsf                   ; --            ; --          ; --             ;
+; MISC_FILE                           ; components/DC32.cmp                   ; --            ; --          ; --             ;
+; MISC_FILE                           ; components/comparator_signed.bsf      ; --            ; --          ; --             ;
+; MISC_FILE                           ; components/comparator_signed.cmp      ; --            ; --          ; --             ;
+; MISC_FILE                           ; components/comparator.bsf             ; --            ; --          ; --             ;
+; MISC_FILE                           ; components/comparator.cmp             ; --            ; --          ; --             ;
+; MISC_FILE                           ; components/cmpx.bsf                   ; --            ; --          ; --             ;
+; MISC_FILE                           ; components/cmpx.cmp                   ; --            ; --          ; --             ;
+; MISC_FILE                           ; components/cmpux.bsf                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; components/cmpux.cmp                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; components/add_pc.bsf                 ; --            ; --          ; --             ;
+; MISC_FILE                           ; components/add_pc.cmp                 ; --            ; --          ; --             ;
+; MISC_FILE                           ; components/add.bsf                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; components/add.cmp                    ; --            ; --          ; --             ;
 ; PARTITION_COLOR                     ; 16764057                              ; --            ; MainScheme  ; Top            ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                 ; --            ; MainScheme  ; Top            ;
 ; PARTITION_NETLIST_TYPE              ; SOURCE                                ; --            ; MainScheme  ; Top            ;
@@ -150,9 +150,9 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4726 MB             ; 00:00:02                           ;
-; Fitter                    ; 00:00:03     ; 1.0                     ; 5444 MB             ; 00:00:03                           ;
-; Assembler                 ; 00:00:01     ; 1.0                     ; 4579 MB             ; 00:00:01                           ;
+; Analysis & Synthesis      ; 00:00:03     ; 1.0                     ; 4722 MB             ; 00:00:02                           ;
+; Fitter                    ; 00:00:03     ; 1.0                     ; 5448 MB             ; 00:00:03                           ;
+; Assembler                 ; 00:00:00     ; 1.0                     ; 4579 MB             ; 00:00:01                           ;
 ; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 4689 MB             ; 00:00:01                           ;
 ; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4548 MB             ; 00:00:00                           ;
 ; Total                     ; 00:00:07     ; --                      ; --                  ; 00:00:07                           ;

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for crowbar
-Wed Jul 17 18:03:28 2024
+Wed Jul 17 18:18:49 2024
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -139,7 +139,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Jul 17 18:03:28 2024      ;
+; Analysis & Synthesis Status        ; Successful - Wed Jul 17 18:18:49 2024      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; crowbar                                    ;
 ; Top-level Entity Name              ; MainScheme                                 ;
@@ -260,79 +260,78 @@ applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                    ;
-+----------------------------------+-----------------+----------------------------------------+-----------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                              ; File Name with Absolute Path                                                      ; Library ;
-+----------------------------------+-----------------+----------------------------------------+-----------------------------------------------------------------------------------+---------+
-; sub.vhd                          ; yes             ; User Wizard-Generated File             ; C:/Users/Milos/Desktop/myproject/sub.vhd                                          ;         ;
-; shift_right.vhd                  ; yes             ; User Wizard-Generated File             ; C:/Users/Milos/Desktop/myproject/shift_right.vhd                                  ;         ;
-; shiftA.vhd                       ; yes             ; User Wizard-Generated File             ; C:/Users/Milos/Desktop/myproject/shiftA.vhd                                       ;         ;
-; shift.vhd                        ; yes             ; User Wizard-Generated File             ; C:/Users/Milos/Desktop/myproject/shift.vhd                                        ;         ;
-; Multiplexer32x1.vhd              ; yes             ; User Wizard-Generated File             ; C:/Users/Milos/Desktop/myproject/Multiplexer32x1.vhd                              ;         ;
-; DC32.vhd                         ; yes             ; User Wizard-Generated File             ; C:/Users/Milos/Desktop/myproject/DC32.vhd                                         ;         ;
-; comparator_signed.vhd            ; yes             ; User Wizard-Generated File             ; C:/Users/Milos/Desktop/myproject/comparator_signed.vhd                            ;         ;
-; comparator.vhd                   ; yes             ; User Wizard-Generated File             ; C:/Users/Milos/Desktop/myproject/comparator.vhd                                   ;         ;
-; cmpx.vhd                         ; yes             ; User Wizard-Generated File             ; C:/Users/Milos/Desktop/myproject/cmpx.vhd                                         ;         ;
-; cmpux.vhd                        ; yes             ; User Wizard-Generated File             ; C:/Users/Milos/Desktop/myproject/cmpux.vhd                                        ;         ;
-; add_pc.vhd                       ; yes             ; User Wizard-Generated File             ; C:/Users/Milos/Desktop/myproject/add_pc.vhd                                       ;         ;
-; add.vhd                          ; yes             ; User Wizard-Generated File             ; C:/Users/Milos/Desktop/myproject/add.vhd                                          ;         ;
-; MUX_32_5.vhd                     ; yes             ; User Wizard-Generated File             ; C:/Users/Milos/Desktop/myproject/MUX_32_5.vhd                                     ;         ;
-; RisingEdgeDetector.bdf           ; yes             ; User Block Diagram/Schematic File      ; C:/Users/Milos/Desktop/myproject/RisingEdgeDetector.bdf                           ;         ;
-; ir_opcode.bdf                    ; yes             ; User Block Diagram/Schematic File      ; C:/Users/Milos/Desktop/myproject/ir_opcode.bdf                                    ;         ;
-; ZEROEXT.vhd                      ; yes             ; User VHDL File                         ; C:/Users/Milos/Desktop/myproject/ZEROEXT.vhd                                      ;         ;
-; SIGNEXT.vhd                      ; yes             ; User VHDL File                         ; C:/Users/Milos/Desktop/myproject/SIGNEXT.vhd                                      ;         ;
-; RegisterX.vhd                    ; yes             ; User VHDL File                         ; C:/Users/Milos/Desktop/myproject/RegisterX.vhd                                    ;         ;
-; ConstantX.vhd                    ; yes             ; User VHDL File                         ; C:/Users/Milos/Desktop/myproject/ConstantX.vhd                                    ;         ;
-; ComparatorX.vhd                  ; yes             ; User VHDL File                         ; C:/Users/Milos/Desktop/myproject/ComparatorX.vhd                                  ;         ;
-; RegFile.bdf                      ; yes             ; User Block Diagram/Schematic File      ; C:/Users/Milos/Desktop/myproject/RegFile.bdf                                      ;         ;
-; MainScheme.bdf                   ; yes             ; User Block Diagram/Schematic File      ; C:/Users/Milos/Desktop/myproject/MainScheme.bdf                                   ;         ;
-; Memory.bdf                       ; yes             ; User Block Diagram/Schematic File      ; C:/Users/Milos/Desktop/myproject/Memory.bdf                                       ;         ;
-; RAM.vhd                          ; yes             ; User Wizard-Generated File             ; C:/Users/Milos/Desktop/myproject/RAM.vhd                                          ;         ;
-; InstantRisingEdge.bdf            ; yes             ; User Block Diagram/Schematic File      ; C:/Users/Milos/Desktop/myproject/InstantRisingEdge.bdf                            ;         ;
-; CPU.bdf                          ; yes             ; User Block Diagram/Schematic File      ; C:/Users/Milos/Desktop/myproject/CPU.bdf                                          ;         ;
-; lpm_add_sub.tdf                  ; yes             ; Megafunction                           ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/lpm_add_sub.tdf         ;         ;
-; addcore.inc                      ; yes             ; Megafunction                           ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/addcore.inc             ;         ;
-; look_add.inc                     ; yes             ; Megafunction                           ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/look_add.inc            ;         ;
-; bypassff.inc                     ; yes             ; Megafunction                           ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/bypassff.inc            ;         ;
-; altshift.inc                     ; yes             ; Megafunction                           ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/altshift.inc            ;         ;
-; alt_stratix_add_sub.inc          ; yes             ; Megafunction                           ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/alt_stratix_add_sub.inc ;         ;
-; aglobal131.inc                   ; yes             ; Megafunction                           ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/aglobal131.inc          ;         ;
-; db/add_sub_2ph.tdf               ; yes             ; Auto-Generated Megafunction            ; C:/Users/Milos/Desktop/myproject/db/add_sub_2ph.tdf                               ;         ;
-; lpm_mux.tdf                      ; yes             ; Megafunction                           ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/lpm_mux.tdf             ;         ;
-; muxlut.inc                       ; yes             ; Megafunction                           ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/muxlut.inc              ;         ;
-; db/mux_k9e.tdf                   ; yes             ; Auto-Generated Megafunction            ; C:/Users/Milos/Desktop/myproject/db/mux_k9e.tdf                                   ;         ;
-; lpm_decode.tdf                   ; yes             ; Megafunction                           ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/lpm_decode.tdf          ;         ;
-; declut.inc                       ; yes             ; Megafunction                           ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/declut.inc              ;         ;
-; lpm_compare.inc                  ; yes             ; Megafunction                           ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/lpm_compare.inc         ;         ;
-; lpm_constant.inc                 ; yes             ; Megafunction                           ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/lpm_constant.inc        ;         ;
-; db/decode_rvf.tdf                ; yes             ; Auto-Generated Megafunction            ; C:/Users/Milos/Desktop/myproject/db/decode_rvf.tdf                                ;         ;
-; lpm_compare.tdf                  ; yes             ; Megafunction                           ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/lpm_compare.tdf         ;         ;
-; comptree.inc                     ; yes             ; Megafunction                           ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/comptree.inc            ;         ;
-; db/cmpr_lji.tdf                  ; yes             ; Auto-Generated Megafunction            ; C:/Users/Milos/Desktop/myproject/db/cmpr_lji.tdf                                  ;         ;
-; db/cmpr_ici.tdf                  ; yes             ; Auto-Generated Megafunction            ; C:/Users/Milos/Desktop/myproject/db/cmpr_ici.tdf                                  ;         ;
-; db/add_sub_msh.tdf               ; yes             ; Auto-Generated Megafunction            ; C:/Users/Milos/Desktop/myproject/db/add_sub_msh.tdf                               ;         ;
-; db/cmpr_7fg.tdf                  ; yes             ; Auto-Generated Megafunction            ; C:/Users/Milos/Desktop/myproject/db/cmpr_7fg.tdf                                  ;         ;
-; db/cmpr_amg.tdf                  ; yes             ; Auto-Generated Megafunction            ; C:/Users/Milos/Desktop/myproject/db/cmpr_amg.tdf                                  ;         ;
-; lpm_clshift.tdf                  ; yes             ; Megafunction                           ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/lpm_clshift.tdf         ;         ;
-; db/lpm_clshift_ukb.tdf           ; yes             ; Auto-Generated Megafunction            ; C:/Users/Milos/Desktop/myproject/db/lpm_clshift_ukb.tdf                           ;         ;
-; db/lpm_clshift_euc.tdf           ; yes             ; Auto-Generated Megafunction            ; C:/Users/Milos/Desktop/myproject/db/lpm_clshift_euc.tdf                           ;         ;
-; db/lpm_clshift_vjc.tdf           ; yes             ; Auto-Generated Megafunction            ; C:/Users/Milos/Desktop/myproject/db/lpm_clshift_vjc.tdf                           ;         ;
-; db/add_sub_0jh.tdf               ; yes             ; Auto-Generated Megafunction            ; C:/Users/Milos/Desktop/myproject/db/add_sub_0jh.tdf                               ;         ;
-; altsyncram.tdf                   ; yes             ; Megafunction                           ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/altsyncram.tdf          ;         ;
-; stratix_ram_block.inc            ; yes             ; Megafunction                           ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/stratix_ram_block.inc   ;         ;
-; lpm_mux.inc                      ; yes             ; Megafunction                           ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/lpm_mux.inc             ;         ;
-; lpm_decode.inc                   ; yes             ; Megafunction                           ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/lpm_decode.inc          ;         ;
-; a_rdenreg.inc                    ; yes             ; Megafunction                           ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/a_rdenreg.inc           ;         ;
-; altrom.inc                       ; yes             ; Megafunction                           ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/altrom.inc              ;         ;
-; altram.inc                       ; yes             ; Megafunction                           ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/altram.inc              ;         ;
-; altdpram.inc                     ; yes             ; Megafunction                           ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/altdpram.inc            ;         ;
-; db/altsyncram_7ho3.tdf           ; yes             ; Auto-Generated Megafunction            ; C:/Users/Milos/Desktop/myproject/db/altsyncram_7ho3.tdf                           ;         ;
-; test.mif                         ; yes             ; Auto-Found Memory Initialization File  ; C:/Users/Milos/Desktop/myproject/test.mif                                         ;         ;
-; db/decode_dra.tdf                ; yes             ; Auto-Generated Megafunction            ; C:/Users/Milos/Desktop/myproject/db/decode_dra.tdf                                ;         ;
-; db/decode_67a.tdf                ; yes             ; Auto-Generated Megafunction            ; C:/Users/Milos/Desktop/myproject/db/decode_67a.tdf                                ;         ;
-; db/mux_tlb.tdf                   ; yes             ; Auto-Generated Megafunction            ; C:/Users/Milos/Desktop/myproject/db/mux_tlb.tdf                                   ;         ;
-+----------------------------------+-----------------+----------------------------------------+-----------------------------------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                 ;
++-----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path  ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                      ; Library ;
++-----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------------+---------+
+; components/ZEROEXT.vhd            ; yes             ; User VHDL File                     ; C:/Users/Milos/Desktop/myproject/components/ZEROEXT.vhd                           ;         ;
+; components/sub.vhd                ; yes             ; User Wizard-Generated File         ; C:/Users/Milos/Desktop/myproject/components/sub.vhd                               ;         ;
+; components/SIGNEXT.vhd            ; yes             ; User VHDL File                     ; C:/Users/Milos/Desktop/myproject/components/SIGNEXT.vhd                           ;         ;
+; components/shiftA.vhd             ; yes             ; User Wizard-Generated File         ; C:/Users/Milos/Desktop/myproject/components/shiftA.vhd                            ;         ;
+; components/shift_right.vhd        ; yes             ; User Wizard-Generated File         ; C:/Users/Milos/Desktop/myproject/components/shift_right.vhd                       ;         ;
+; components/shift.vhd              ; yes             ; User Wizard-Generated File         ; C:/Users/Milos/Desktop/myproject/components/shift.vhd                             ;         ;
+; components/RisingEdgeDetector.bdf ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Milos/Desktop/myproject/components/RisingEdgeDetector.bdf                ;         ;
+; components/RegisterX.vhd          ; yes             ; User VHDL File                     ; C:/Users/Milos/Desktop/myproject/components/RegisterX.vhd                         ;         ;
+; components/RegFile.bdf            ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Milos/Desktop/myproject/components/RegFile.bdf                           ;         ;
+; components/RAM.vhd                ; yes             ; User Wizard-Generated File         ; C:/Users/Milos/Desktop/myproject/components/RAM.vhd                               ;         ;
+; components/MUX_32_5.vhd           ; yes             ; User Wizard-Generated File         ; C:/Users/Milos/Desktop/myproject/components/MUX_32_5.vhd                          ;         ;
+; components/Multiplexer32x1.vhd    ; yes             ; User Wizard-Generated File         ; C:/Users/Milos/Desktop/myproject/components/Multiplexer32x1.vhd                   ;         ;
+; components/Memory.bdf             ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Milos/Desktop/myproject/components/Memory.bdf                            ;         ;
+; components/MainScheme.bdf         ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Milos/Desktop/myproject/components/MainScheme.bdf                        ;         ;
+; components/ir_opcode.bdf          ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Milos/Desktop/myproject/components/ir_opcode.bdf                         ;         ;
+; components/InstantRisingEdge.bdf  ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Milos/Desktop/myproject/components/InstantRisingEdge.bdf                 ;         ;
+; components/DC32.vhd               ; yes             ; User Wizard-Generated File         ; C:/Users/Milos/Desktop/myproject/components/DC32.vhd                              ;         ;
+; components/CPU.bdf                ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Milos/Desktop/myproject/components/CPU.bdf                               ;         ;
+; components/ConstantX.vhd          ; yes             ; User VHDL File                     ; C:/Users/Milos/Desktop/myproject/components/ConstantX.vhd                         ;         ;
+; components/ComparatorX.vhd        ; yes             ; User VHDL File                     ; C:/Users/Milos/Desktop/myproject/components/ComparatorX.vhd                       ;         ;
+; components/comparator_signed.vhd  ; yes             ; User Wizard-Generated File         ; C:/Users/Milos/Desktop/myproject/components/comparator_signed.vhd                 ;         ;
+; components/comparator.vhd         ; yes             ; User Wizard-Generated File         ; C:/Users/Milos/Desktop/myproject/components/comparator.vhd                        ;         ;
+; components/cmpx.vhd               ; yes             ; User Wizard-Generated File         ; C:/Users/Milos/Desktop/myproject/components/cmpx.vhd                              ;         ;
+; components/cmpux.vhd              ; yes             ; User Wizard-Generated File         ; C:/Users/Milos/Desktop/myproject/components/cmpux.vhd                             ;         ;
+; components/add_pc.vhd             ; yes             ; User Wizard-Generated File         ; C:/Users/Milos/Desktop/myproject/components/add_pc.vhd                            ;         ;
+; components/add.vhd                ; yes             ; User Wizard-Generated File         ; C:/Users/Milos/Desktop/myproject/components/add.vhd                               ;         ;
+; lpm_add_sub.tdf                   ; yes             ; Megafunction                       ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/lpm_add_sub.tdf         ;         ;
+; addcore.inc                       ; yes             ; Megafunction                       ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/addcore.inc             ;         ;
+; look_add.inc                      ; yes             ; Megafunction                       ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/look_add.inc            ;         ;
+; bypassff.inc                      ; yes             ; Megafunction                       ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/bypassff.inc            ;         ;
+; altshift.inc                      ; yes             ; Megafunction                       ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/altshift.inc            ;         ;
+; alt_stratix_add_sub.inc           ; yes             ; Megafunction                       ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/alt_stratix_add_sub.inc ;         ;
+; aglobal131.inc                    ; yes             ; Megafunction                       ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/aglobal131.inc          ;         ;
+; db/add_sub_2ph.tdf                ; yes             ; Auto-Generated Megafunction        ; C:/Users/Milos/Desktop/myproject/db/add_sub_2ph.tdf                               ;         ;
+; lpm_mux.tdf                       ; yes             ; Megafunction                       ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/lpm_mux.tdf             ;         ;
+; muxlut.inc                        ; yes             ; Megafunction                       ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/muxlut.inc              ;         ;
+; db/mux_k9e.tdf                    ; yes             ; Auto-Generated Megafunction        ; C:/Users/Milos/Desktop/myproject/db/mux_k9e.tdf                                   ;         ;
+; lpm_decode.tdf                    ; yes             ; Megafunction                       ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/lpm_decode.tdf          ;         ;
+; declut.inc                        ; yes             ; Megafunction                       ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/declut.inc              ;         ;
+; lpm_compare.inc                   ; yes             ; Megafunction                       ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/lpm_compare.inc         ;         ;
+; lpm_constant.inc                  ; yes             ; Megafunction                       ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/lpm_constant.inc        ;         ;
+; db/decode_rvf.tdf                 ; yes             ; Auto-Generated Megafunction        ; C:/Users/Milos/Desktop/myproject/db/decode_rvf.tdf                                ;         ;
+; lpm_compare.tdf                   ; yes             ; Megafunction                       ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/lpm_compare.tdf         ;         ;
+; comptree.inc                      ; yes             ; Megafunction                       ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/comptree.inc            ;         ;
+; db/cmpr_lji.tdf                   ; yes             ; Auto-Generated Megafunction        ; C:/Users/Milos/Desktop/myproject/db/cmpr_lji.tdf                                  ;         ;
+; db/cmpr_ici.tdf                   ; yes             ; Auto-Generated Megafunction        ; C:/Users/Milos/Desktop/myproject/db/cmpr_ici.tdf                                  ;         ;
+; db/add_sub_msh.tdf                ; yes             ; Auto-Generated Megafunction        ; C:/Users/Milos/Desktop/myproject/db/add_sub_msh.tdf                               ;         ;
+; db/cmpr_7fg.tdf                   ; yes             ; Auto-Generated Megafunction        ; C:/Users/Milos/Desktop/myproject/db/cmpr_7fg.tdf                                  ;         ;
+; db/cmpr_amg.tdf                   ; yes             ; Auto-Generated Megafunction        ; C:/Users/Milos/Desktop/myproject/db/cmpr_amg.tdf                                  ;         ;
+; lpm_clshift.tdf                   ; yes             ; Megafunction                       ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/lpm_clshift.tdf         ;         ;
+; db/lpm_clshift_ukb.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/Milos/Desktop/myproject/db/lpm_clshift_ukb.tdf                           ;         ;
+; db/lpm_clshift_euc.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/Milos/Desktop/myproject/db/lpm_clshift_euc.tdf                           ;         ;
+; db/lpm_clshift_vjc.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/Milos/Desktop/myproject/db/lpm_clshift_vjc.tdf                           ;         ;
+; db/add_sub_0jh.tdf                ; yes             ; Auto-Generated Megafunction        ; C:/Users/Milos/Desktop/myproject/db/add_sub_0jh.tdf                               ;         ;
+; altsyncram.tdf                    ; yes             ; Megafunction                       ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/altsyncram.tdf          ;         ;
+; stratix_ram_block.inc             ; yes             ; Megafunction                       ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/stratix_ram_block.inc   ;         ;
+; lpm_mux.inc                       ; yes             ; Megafunction                       ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/lpm_mux.inc             ;         ;
+; lpm_decode.inc                    ; yes             ; Megafunction                       ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/lpm_decode.inc          ;         ;
+; a_rdenreg.inc                     ; yes             ; Megafunction                       ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/a_rdenreg.inc           ;         ;
+; altrom.inc                        ; yes             ; Megafunction                       ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/altrom.inc              ;         ;
+; altram.inc                        ; yes             ; Megafunction                       ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/altram.inc              ;         ;
+; altdpram.inc                      ; yes             ; Megafunction                       ; e:/apps/quartusii/quartus/quartus/libraries/megafunctions/altdpram.inc            ;         ;
+; db/altsyncram_7ho3.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/Milos/Desktop/myproject/db/altsyncram_7ho3.tdf                           ;         ;
+; db/decode_dra.tdf                 ; yes             ; Auto-Generated Megafunction        ; C:/Users/Milos/Desktop/myproject/db/decode_dra.tdf                                ;         ;
+; db/decode_67a.tdf                 ; yes             ; Auto-Generated Megafunction        ; C:/Users/Milos/Desktop/myproject/db/decode_67a.tdf                                ;         ;
+; db/mux_tlb.tdf                    ; yes             ; Auto-Generated Megafunction        ; C:/Users/Milos/Desktop/myproject/db/mux_tlb.tdf                                   ;         ;
++-----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------------+
@@ -374,39 +373,39 @@ applicable agreement for further details.
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis IP Cores Summary                                                                                                                                               ;
-+--------+--------------+---------+--------------+--------------+------------------------------------------------------------+--------------------------------------------------------+
-; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                                            ; IP Include File                                        ;
-+--------+--------------+---------+--------------+--------------+------------------------------------------------------------+--------------------------------------------------------+
-; Altera ; LPM_ADD_SUB  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|add:inst8                             ; C:/Users/Milos/Desktop/myproject/add.vhd               ;
-; Altera ; LPM_ADD_SUB  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|add:inst12                            ; C:/Users/Milos/Desktop/myproject/add.vhd               ;
-; Altera ; LPM_ADD_SUB  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|add_pc:inst14                         ; C:/Users/Milos/Desktop/myproject/add_pc.vhd            ;
-; Altera ; LPM_ADD_SUB  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|add:inst15                            ; C:/Users/Milos/Desktop/myproject/add.vhd               ;
-; Altera ; LPM_MUX      ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|RegFile:inst16|Multiplexer32x1:inst33 ; C:/Users/Milos/Desktop/myproject/Multiplexer32x1.vhd   ;
-; Altera ; LPM_DECODE   ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|RegFile:inst16|DC32:inst34            ; C:/Users/Milos/Desktop/myproject/DC32.vhd              ;
-; Altera ; LPM_MUX      ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|RegFile:inst16|Multiplexer32x1:inst35 ; C:/Users/Milos/Desktop/myproject/Multiplexer32x1.vhd   ;
-; Altera ; LPM_MUX      ; N/A     ; N/A          ; N/A          ; |MainScheme|CPU:inst|RegFile:inst16|MUX_32_5:inst36        ; C:/Users/Milos/Desktop/myproject/MUX_32_5.vhd          ;
-; Altera ; LPM_COMPARE  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|cmpx:inst18                           ; C:/Users/Milos/Desktop/myproject/cmpx.vhd              ;
-; Altera ; LPM_COMPARE  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|cmpux:inst19                          ; C:/Users/Milos/Desktop/myproject/cmpux.vhd             ;
-; Altera ; LPM_CLSHIFT  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|shift:inst23                          ; C:/Users/Milos/Desktop/myproject/shift.vhd             ;
-; Altera ; LPM_CLSHIFT  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|shift_right:inst24                    ; C:/Users/Milos/Desktop/myproject/shift_right.vhd       ;
-; Altera ; LPM_CLSHIFT  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|shiftA:inst25                         ; C:/Users/Milos/Desktop/myproject/shiftA.vhd            ;
-; Altera ; LPM_ADD_SUB  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|add:inst26                            ; C:/Users/Milos/Desktop/myproject/add.vhd               ;
-; Altera ; LPM_ADD_SUB  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|sub:inst27                            ; C:/Users/Milos/Desktop/myproject/sub.vhd               ;
-; Altera ; LPM_CLSHIFT  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|shift:inst28                          ; C:/Users/Milos/Desktop/myproject/shift.vhd             ;
-; Altera ; LPM_ADD_SUB  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|add:inst29                            ; C:/Users/Milos/Desktop/myproject/add.vhd               ;
-; Altera ; LPM_COMPARE  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|cmpx:inst30                           ; C:/Users/Milos/Desktop/myproject/cmpx.vhd              ;
-; Altera ; LPM_COMPARE  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|cmpux:inst31                          ; C:/Users/Milos/Desktop/myproject/cmpux.vhd             ;
-; Altera ; LPM_CLSHIFT  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|shift_right:inst33                    ; C:/Users/Milos/Desktop/myproject/shift_right.vhd       ;
-; Altera ; LPM_CLSHIFT  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|shiftA:inst34                         ; C:/Users/Milos/Desktop/myproject/shiftA.vhd            ;
-; Altera ; LPM_COMPARE  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|comparator:inst35                     ; C:/Users/Milos/Desktop/myproject/comparator.vhd        ;
-; Altera ; LPM_COMPARE  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|comparator_signed:inst39              ; C:/Users/Milos/Desktop/myproject/comparator_signed.vhd ;
-; Altera ; LPM_ADD_SUB  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|add:inst40                            ; C:/Users/Milos/Desktop/myproject/add.vhd               ;
-; Altera ; LPM_ADD_SUB  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|add:inst77                            ; C:/Users/Milos/Desktop/myproject/add.vhd               ;
-; Altera ; LPM_ADD_SUB  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|add:inst84                            ; C:/Users/Milos/Desktop/myproject/add.vhd               ;
-; Altera ; RAM: 1-PORT  ; 13.1    ; N/A          ; N/A          ; |MainScheme|Memory:inst1|RAM:inst5                         ; C:/Users/Milos/Desktop/myproject/RAM.vhd               ;
-+--------+--------------+---------+--------------+--------------+------------------------------------------------------------+--------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                                                                                          ;
++--------+--------------+---------+--------------+--------------+------------------------------------------------------------+-------------------------------------------------------------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                                            ; IP Include File                                                   ;
++--------+--------------+---------+--------------+--------------+------------------------------------------------------------+-------------------------------------------------------------------+
+; Altera ; LPM_ADD_SUB  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|add:inst8                             ; C:/Users/Milos/Desktop/myproject/components/add.vhd               ;
+; Altera ; LPM_ADD_SUB  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|add:inst12                            ; C:/Users/Milos/Desktop/myproject/components/add.vhd               ;
+; Altera ; LPM_ADD_SUB  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|add_pc:inst14                         ; C:/Users/Milos/Desktop/myproject/components/add_pc.vhd            ;
+; Altera ; LPM_ADD_SUB  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|add:inst15                            ; C:/Users/Milos/Desktop/myproject/components/add.vhd               ;
+; Altera ; LPM_MUX      ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|RegFile:inst16|Multiplexer32x1:inst33 ; C:/Users/Milos/Desktop/myproject/components/Multiplexer32x1.vhd   ;
+; Altera ; LPM_DECODE   ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|RegFile:inst16|DC32:inst34            ; C:/Users/Milos/Desktop/myproject/components/DC32.vhd              ;
+; Altera ; LPM_MUX      ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|RegFile:inst16|Multiplexer32x1:inst35 ; C:/Users/Milos/Desktop/myproject/components/Multiplexer32x1.vhd   ;
+; Altera ; LPM_MUX      ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|RegFile:inst16|MUX_32_5:inst36        ; C:/Users/Milos/Desktop/myproject/components/MUX_32_5.vhd          ;
+; Altera ; LPM_COMPARE  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|cmpx:inst18                           ; C:/Users/Milos/Desktop/myproject/components/cmpx.vhd              ;
+; Altera ; LPM_COMPARE  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|cmpux:inst19                          ; C:/Users/Milos/Desktop/myproject/components/cmpux.vhd             ;
+; Altera ; LPM_CLSHIFT  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|shift:inst23                          ; C:/Users/Milos/Desktop/myproject/components/shift.vhd             ;
+; Altera ; LPM_CLSHIFT  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|shift_right:inst24                    ; C:/Users/Milos/Desktop/myproject/components/shift_right.vhd       ;
+; Altera ; LPM_CLSHIFT  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|shiftA:inst25                         ; C:/Users/Milos/Desktop/myproject/components/shiftA.vhd            ;
+; Altera ; LPM_ADD_SUB  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|add:inst26                            ; C:/Users/Milos/Desktop/myproject/components/add.vhd               ;
+; Altera ; LPM_ADD_SUB  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|sub:inst27                            ; C:/Users/Milos/Desktop/myproject/components/sub.vhd               ;
+; Altera ; LPM_CLSHIFT  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|shift:inst28                          ; C:/Users/Milos/Desktop/myproject/components/shift.vhd             ;
+; Altera ; LPM_ADD_SUB  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|add:inst29                            ; C:/Users/Milos/Desktop/myproject/components/add.vhd               ;
+; Altera ; LPM_COMPARE  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|cmpx:inst30                           ; C:/Users/Milos/Desktop/myproject/components/cmpx.vhd              ;
+; Altera ; LPM_COMPARE  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|cmpux:inst31                          ; C:/Users/Milos/Desktop/myproject/components/cmpux.vhd             ;
+; Altera ; LPM_CLSHIFT  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|shift_right:inst33                    ; C:/Users/Milos/Desktop/myproject/components/shift_right.vhd       ;
+; Altera ; LPM_CLSHIFT  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|shiftA:inst34                         ; C:/Users/Milos/Desktop/myproject/components/shiftA.vhd            ;
+; Altera ; LPM_COMPARE  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|comparator:inst35                     ; C:/Users/Milos/Desktop/myproject/components/comparator.vhd        ;
+; Altera ; LPM_COMPARE  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|comparator_signed:inst39              ; C:/Users/Milos/Desktop/myproject/components/comparator_signed.vhd ;
+; Altera ; LPM_ADD_SUB  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|add:inst40                            ; C:/Users/Milos/Desktop/myproject/components/add.vhd               ;
+; Altera ; LPM_ADD_SUB  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|add:inst77                            ; C:/Users/Milos/Desktop/myproject/components/add.vhd               ;
+; Altera ; LPM_ADD_SUB  ; 13.1    ; N/A          ; N/A          ; |MainScheme|CPU:inst|add:inst84                            ; C:/Users/Milos/Desktop/myproject/components/add.vhd               ;
+; Altera ; RAM: 1-PORT  ; 13.1    ; N/A          ; N/A          ; |MainScheme|Memory:inst1|RAM:inst5                         ; C:/Users/Milos/Desktop/myproject/components/RAM.vhd               ;
++--------+--------------+---------+--------------+--------------+------------------------------------------------------------+-------------------------------------------------------------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------+
@@ -1920,113 +1919,82 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Wed Jul 17 18:03:26 2024
+    Info: Processing started: Wed Jul 17 18:18:46 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off crowbar -c crowbar
-Warning (125092): Tcl Script File DC_5.qip not found
-    Info (125063): set_global_assignment -name QIP_FILE DC_5.qip
-Warning (125092): Tcl Script File Decoder32.qip not found
-    Info (125063): set_global_assignment -name QIP_FILE Decoder32.qip
-Warning (125092): Tcl Script File Multiplexer8x1.qip not found
-    Info (125063): set_global_assignment -name QIP_FILE Multiplexer8x1.qip
-Warning (125092): Tcl Script File ramtest.qip not found
-    Info (125063): set_global_assignment -name QIP_FILE ramtest.qip
-Warning (125092): Tcl Script File mux16x1.qip not found
-    Info (125063): set_global_assignment -name QIP_FILE mux16x1.qip
-Warning (125092): Tcl Script File mux64x1.qip not found
-    Info (125063): set_global_assignment -name QIP_FILE mux64x1.qip
-Warning (125092): Tcl Script File memblock.qip not found
-    Info (125063): set_global_assignment -name QIP_FILE memblock.qip
 Info (11104): Parallel Compilation has detected 12 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 6 of the 6 physical processors detected instead.
-Info (12021): Found 2 design units, including 1 entities, in source file sub.vhd
-    Info (12022): Found design unit 1: sub-SYN
-    Info (12023): Found entity 1: sub
-Info (12021): Found 2 design units, including 1 entities, in source file shift_right.vhd
-    Info (12022): Found design unit 1: shift_right-SYN
-    Info (12023): Found entity 1: shift_right
-Info (12021): Found 2 design units, including 1 entities, in source file shifta.vhd
-    Info (12022): Found design unit 1: shifta-SYN
-    Info (12023): Found entity 1: shiftA
-Info (12021): Found 2 design units, including 1 entities, in source file shift.vhd
-    Info (12022): Found design unit 1: shift-SYN
-    Info (12023): Found entity 1: shift
-Warning (12019): Can't analyze file -- file ramtest.vhd is missing
-Warning (12019): Can't analyze file -- file mux64x1.vhd is missing
-Warning (12019): Can't analyze file -- file mux16x1.vhd is missing
-Warning (12019): Can't analyze file -- file Multiplexer8x1.vhd is missing
-Info (12021): Found 2 design units, including 1 entities, in source file multiplexer32x1.vhd
-    Info (12022): Found design unit 1: multiplexer32x1-SYN
-    Info (12023): Found entity 1: Multiplexer32x1
-Warning (12019): Can't analyze file -- file memblock.vhd is missing
-Info (12021): Found 2 design units, including 1 entities, in source file dc32.vhd
-    Info (12022): Found design unit 1: dc32-SYN
-    Info (12023): Found entity 1: DC32
-Info (12021): Found 2 design units, including 1 entities, in source file comparator_signed.vhd
-    Info (12022): Found design unit 1: comparator_signed-SYN
-    Info (12023): Found entity 1: comparator_signed
-Info (12021): Found 2 design units, including 1 entities, in source file comparator.vhd
-    Info (12022): Found design unit 1: comparator-SYN
-    Info (12023): Found entity 1: comparator
-Info (12021): Found 2 design units, including 1 entities, in source file cmpx.vhd
-    Info (12022): Found design unit 1: cmpx-SYN
-    Info (12023): Found entity 1: cmpx
-Info (12021): Found 2 design units, including 1 entities, in source file cmpux.vhd
-    Info (12022): Found design unit 1: cmpux-SYN
-    Info (12023): Found entity 1: cmpux
-Info (12021): Found 2 design units, including 1 entities, in source file add_pc.vhd
-    Info (12022): Found design unit 1: add_pc-SYN
-    Info (12023): Found entity 1: add_pc
-Info (12021): Found 2 design units, including 1 entities, in source file add.vhd
-    Info (12022): Found design unit 1: add-SYN
-    Info (12023): Found entity 1: add
-Info (12021): Found 2 design units, including 1 entities, in source file mux_32_5.vhd
-    Info (12022): Found design unit 1: mux_32_5-SYN
-    Info (12023): Found entity 1: MUX_32_5
-Info (12021): Found 1 design units, including 1 entities, in source file risingedgedetector.bdf
-    Info (12023): Found entity 1: RisingEdgeDetector
-Info (12021): Found 1 design units, including 1 entities, in source file ir_opcode.bdf
-    Info (12023): Found entity 1: ir_opcode
-Warning (12019): Can't analyze file -- file 4B_8MB.bdf is missing
-Info (12021): Found 2 design units, including 1 entities, in source file zeroext.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file components/zeroext.vhd
     Info (12022): Found design unit 1: ZEROEXT-rtl
     Info (12023): Found entity 1: ZEROEXT
-Info (12021): Found 2 design units, including 1 entities, in source file signext.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file components/sub.vhd
+    Info (12022): Found design unit 1: sub-SYN
+    Info (12023): Found entity 1: sub
+Info (12021): Found 2 design units, including 1 entities, in source file components/signext.vhd
     Info (12022): Found design unit 1: SIGNEXT-rtl
     Info (12023): Found entity 1: SIGNEXT
-Info (12021): Found 2 design units, including 1 entities, in source file registerx.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file components/shifta.vhd
+    Info (12022): Found design unit 1: shifta-SYN
+    Info (12023): Found entity 1: shiftA
+Info (12021): Found 2 design units, including 1 entities, in source file components/shift_right.vhd
+    Info (12022): Found design unit 1: shift_right-SYN
+    Info (12023): Found entity 1: shift_right
+Info (12021): Found 2 design units, including 1 entities, in source file components/shift.vhd
+    Info (12022): Found design unit 1: shift-SYN
+    Info (12023): Found entity 1: shift
+Info (12021): Found 1 design units, including 1 entities, in source file components/risingedgedetector.bdf
+    Info (12023): Found entity 1: RisingEdgeDetector
+Info (12021): Found 2 design units, including 1 entities, in source file components/registerx.vhd
     Info (12022): Found design unit 1: RegisterX-rtl
     Info (12023): Found entity 1: RegisterX
-Warning (12019): Can't analyze file -- file MultiplexerX.vhd is missing
-Warning (12019): Can't analyze file -- file Decoder32.vhd is missing
-Warning (12019): Can't analyze file -- file DC_5.vhd is missing
-Info (12021): Found 2 design units, including 1 entities, in source file constantx.vhd
-    Info (12022): Found design unit 1: ConstantX-rtl
-    Info (12023): Found entity 1: ConstantX
-Info (12021): Found 2 design units, including 1 entities, in source file comparatorx.vhd
-    Info (12022): Found design unit 1: ComparatorX-rtl
-    Info (12023): Found entity 1: ComparatorX
-Warning (12019): Can't analyze file -- file crowbar.bdf is missing
-Info (12021): Found 1 design units, including 1 entities, in source file regfile.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file components/regfile.bdf
     Info (12023): Found entity 1: RegFile
-Warning (12019): Can't analyze file -- file SDRAMtest.vhd is missing
-Warning (12019): Can't analyze file -- file SDRAMVerilog.v is missing
-Warning (12019): Can't analyze file -- file mymux32x1.bdf is missing
-Warning (12019): Can't analyze file -- file mymux64x1.vhd is missing
-Warning (12019): Can't analyze file -- file Komponente/7SEG/seven_segment_digit_interface.vhd is missing
-Info (12021): Found 1 design units, including 1 entities, in source file mainscheme.bdf
-    Info (12023): Found entity 1: MainScheme
-Info (12021): Found 1 design units, including 1 entities, in source file memory.bdf
-    Info (12023): Found entity 1: Memory
-Info (12021): Found 2 design units, including 1 entities, in source file ram.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file components/ram.vhd
     Info (12022): Found design unit 1: ram-SYN
     Info (12023): Found entity 1: RAM
-Warning (12019): Can't analyze file -- file GPU.bdf is missing
-Warning (12019): Can't analyze file -- file output_files/InstantRisingEdge.bdf is missing
-Info (12021): Found 1 design units, including 1 entities, in source file instantrisingedge.bdf
-    Info (12023): Found entity 1: InstantRisingEdge
-Info (12021): Found 1 design units, including 1 entities, in source file print.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file components/print.bdf
     Info (12023): Found entity 1: Print
-Info (12021): Found 1 design units, including 1 entities, in source file cpu.bdf
+Info (12021): Found 2 design units, including 1 entities, in source file components/mux_32_5.vhd
+    Info (12022): Found design unit 1: mux_32_5-SYN
+    Info (12023): Found entity 1: MUX_32_5
+Info (12021): Found 2 design units, including 1 entities, in source file components/multiplexer32x1.vhd
+    Info (12022): Found design unit 1: multiplexer32x1-SYN
+    Info (12023): Found entity 1: Multiplexer32x1
+Info (12021): Found 1 design units, including 1 entities, in source file components/memory.bdf
+    Info (12023): Found entity 1: Memory
+Info (12021): Found 1 design units, including 1 entities, in source file components/mainscheme.bdf
+    Info (12023): Found entity 1: MainScheme
+Info (12021): Found 1 design units, including 1 entities, in source file components/ir_opcode.bdf
+    Info (12023): Found entity 1: ir_opcode
+Info (12021): Found 1 design units, including 1 entities, in source file components/instantrisingedge.bdf
+    Info (12023): Found entity 1: InstantRisingEdge
+Info (12021): Found 2 design units, including 1 entities, in source file components/dc32.vhd
+    Info (12022): Found design unit 1: dc32-SYN
+    Info (12023): Found entity 1: DC32
+Info (12021): Found 1 design units, including 1 entities, in source file components/cpu.bdf
     Info (12023): Found entity 1: CPU
+Info (12021): Found 2 design units, including 1 entities, in source file components/constantx.vhd
+    Info (12022): Found design unit 1: ConstantX-rtl
+    Info (12023): Found entity 1: ConstantX
+Info (12021): Found 2 design units, including 1 entities, in source file components/comparatorx.vhd
+    Info (12022): Found design unit 1: ComparatorX-rtl
+    Info (12023): Found entity 1: ComparatorX
+Info (12021): Found 2 design units, including 1 entities, in source file components/comparator_signed.vhd
+    Info (12022): Found design unit 1: comparator_signed-SYN
+    Info (12023): Found entity 1: comparator_signed
+Info (12021): Found 2 design units, including 1 entities, in source file components/comparator.vhd
+    Info (12022): Found design unit 1: comparator-SYN
+    Info (12023): Found entity 1: comparator
+Info (12021): Found 2 design units, including 1 entities, in source file components/cmpx.vhd
+    Info (12022): Found design unit 1: cmpx-SYN
+    Info (12023): Found entity 1: cmpx
+Info (12021): Found 2 design units, including 1 entities, in source file components/cmpux.vhd
+    Info (12022): Found design unit 1: cmpux-SYN
+    Info (12023): Found entity 1: cmpux
+Info (12021): Found 2 design units, including 1 entities, in source file components/add_pc.vhd
+    Info (12022): Found design unit 1: add_pc-SYN
+    Info (12023): Found entity 1: add_pc
+Info (12021): Found 2 design units, including 1 entities, in source file components/add.vhd
+    Info (12022): Found design unit 1: add-SYN
+    Info (12023): Found entity 1: add
 Info (12127): Elaborating entity "MainScheme" for the top level hierarchy
 Warning (275043): Pin "LED0" is missing source
 Warning (275043): Pin "LED1" is missing source
@@ -2289,6 +2257,7 @@ Info (12133): Instantiated megafunction "Memory:inst1|RAM:inst5|altsyncram:altsy
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_7ho3.tdf
     Info (12023): Found entity 1: altsyncram_7ho3
 Info (12128): Elaborating entity "altsyncram_7ho3" for hierarchy "Memory:inst1|RAM:inst5|altsyncram:altsyncram_component|altsyncram_7ho3:auto_generated"
+Critical Warning (127003): Can't find Memory Initialization File or Hexadecimal (Intel-Format) File ../test.mif -- setting all initial values to 0
 Info (12021): Found 1 design units, including 1 entities, in source file db/decode_dra.tdf
     Info (12023): Found entity 1: decode_dra
 Info (12128): Elaborating entity "decode_dra" for hierarchy "Memory:inst1|RAM:inst5|altsyncram:altsyncram_component|altsyncram_7ho3:auto_generated|decode_dra:decode3"
@@ -2381,10 +2350,10 @@ Warning (21074): Design contains 3 input pin(s) that do not drive logic
 Info (21057): Implemented 41 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 3 input pins
     Info (21059): Implemented 38 output pins
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 146 warnings
-    Info: Peak virtual memory: 4730 megabytes
-    Info: Processing ended: Wed Jul 17 18:03:28 2024
-    Info: Elapsed time: 00:00:02
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 123 warnings
+    Info: Peak virtual memory: 4722 megabytes
+    Info: Processing ended: Wed Jul 17 18:18:49 2024
+    Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:02
 
 

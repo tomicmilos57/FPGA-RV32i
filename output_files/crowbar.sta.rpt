@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for crowbar
-Wed Jul 17 18:03:36 2024
+Wed Jul 17 18:18:56 2024
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -450,24 +450,10 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 +------------------------------------+
 ; TimeQuest Timing Analyzer Messages ;
 +------------------------------------+
-Warning (125092): Tcl Script File DC_5.qip not found
-    Info (125063): set_global_assignment -name QIP_FILE DC_5.qip
-Warning (125092): Tcl Script File Decoder32.qip not found
-    Info (125063): set_global_assignment -name QIP_FILE Decoder32.qip
-Warning (125092): Tcl Script File Multiplexer8x1.qip not found
-    Info (125063): set_global_assignment -name QIP_FILE Multiplexer8x1.qip
-Warning (125092): Tcl Script File ramtest.qip not found
-    Info (125063): set_global_assignment -name QIP_FILE ramtest.qip
-Warning (125092): Tcl Script File mux16x1.qip not found
-    Info (125063): set_global_assignment -name QIP_FILE mux16x1.qip
-Warning (125092): Tcl Script File mux64x1.qip not found
-    Info (125063): set_global_assignment -name QIP_FILE mux64x1.qip
-Warning (125092): Tcl Script File memblock.qip not found
-    Info (125063): set_global_assignment -name QIP_FILE memblock.qip
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Wed Jul 17 18:03:35 2024
+    Info: Processing started: Wed Jul 17 18:18:55 2024
 Info: Command: quartus_sta crowbar -c crowbar
 Info: qsta_default_script.tcl version: #1
 Info (11104): Parallel Compilation has detected 12 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 6 of the 6 physical processors detected instead.
@@ -513,9 +499,9 @@ Info (332140): No Removal paths to report
 Info (332140): No Minimum Pulse Width paths to report
 Info (332101): Design is fully constrained for setup requirements
 Info (332101): Design is fully constrained for hold requirements
-Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 11 warnings
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
     Info: Peak virtual memory: 4689 megabytes
-    Info: Processing ended: Wed Jul 17 18:03:36 2024
+    Info: Processing ended: Wed Jul 17 18:18:56 2024
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
