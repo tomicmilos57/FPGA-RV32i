@@ -38,5 +38,56 @@ The project consists of two main modules: the CPU and Memory. These modules inte
 - **Received Signal:** Indicates that the data transfer from memory to the CPU has been completed.
 
 
+## CPU Implementation
+
+### Program Counter (PC) and Instruction Register (IR)
+- **PC (Program Counter):** Holds the address of the next instruction to be fetched from memory. It is automatically incremented after each instruction fetch to point to the subsequent instruction.
+- **IR (Instruction Register):** Temporarily stores the instruction fetched from memory before it is decoded and executed.
+  
+![pc ir](https://github.com/user-attachments/assets/a2e87ff8-3df3-40d5-a090-5101947e4c57)
+
+### Register File
+- Contains 31 general-purpose registers. Register x0 is hardwired to the constant 0.
+- Each register can hold a 32-bit value.
+- Used to store operands for arithmetic and logical operations as well as intermediate results and data.
+
+![regfile](https://github.com/user-attachments/assets/127427dc-bf0c-4656-93f1-f9cbc65e18cd)
+
+### Branch Logic
+- Manages the execution of branch instructions.
+- Determines the next instruction address based on branch conditions, such as equal, not equal, less than, and greater than comparisons.
+- Updates the PC to reflect the correct instruction address for conditional and unconditional branches.
+
+![branch](https://github.com/user-attachments/assets/5b8ffa91-3339-481e-8f5a-6e43e9736630)
+
+### ALU Logic
+- Performs arithmetic operations such as addition and subtraction.
+- Handles logical operations.
+- Supports shift operations and immediate value manipulations.
+
+### Memory Instruction Logic
+- Manages load and store instructions.
+- Interfaces with the memory module to read data from or write data to specific memory addresses.
+
+![memoryInst](https://github.com/user-attachments/assets/077cbf47-459c-44f7-98ae-c0c96535e7e7)
+
+## Memory Implementation
+The Memory module consists of several critical components that facilitate the storage and retrieval of data.
+
+### Memory Address Register (MAR)
+- **MAR (Memory Address Register):** Holds the address of the memory location to be accessed. During a read or write operation, the CPU places the address of the desired memory location into the MAR.
+
+### Memory Data Register (MDR)
+- **MDR (Memory Data Register):** Temporarily holds data that is being transferred to memory. 
+
+### Data Out Register (DO)
+- **DO (Data Out Register):** Holds the data to be sent to the CPU after a read operation. It ensures that the data is correctly aligned and ready for processing by the CPU.
+
+
+![memory](https://github.com/user-attachments/assets/3adce8e9-0202-48ec-a24b-6ea51829e16a)
+
+### Control Unit
+- **Control Unit:** Manages the control signals required for memory operations. It coordinates the activities of the MAR, MDR, and DO registers, ensuring that data is correctly transferred between the memory and the CPU. The control unit also generates the `Received Signal` to indicate the completion of a memory operation.
+
 ## Conclusion
 This project aims to create a solid, efficient, and easy-to-understand RISC-V `rv32i` processor implementation on the FPGA Cyclone III, providing a valuable tool for education, research, and further development in the field of processor design.
